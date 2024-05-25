@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    width: 90%;
+    max-width: 800px;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input[type="text"], form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+form input[type="text"]:focus, form textarea:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#quizList li {
+    list-style-type: none;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#quizList li:hover {
+    background-color: #f1f1f1;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
